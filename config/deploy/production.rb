@@ -60,7 +60,8 @@
 #     # password: "please use keys"
 #   }
 
-set :stage, :production
-set :rails_env, :production
+
+
+server '54.147.171.181', roles: [:web, :app, :db], primary: true
+set :stage,  'production'
 set :branch, "main"
-server "54.147.171.181", user: "bromo", roles: %w{web app db}
