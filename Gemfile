@@ -60,11 +60,13 @@ group :development do
 end
 
 group :development do
- gem 'capistrano', '~> 3.7'
- gem 'capistrano-rvm'
- gem 'capistrano-rails', '~> 1.2'
- gem 'capistrano-yarn'
- gem 'capistrano3-puma'
+    gem 'capistrano',  '3.7.2',       require: false
+    gem 'capistrano-rvm',     require: false
+    gem 'capistrano-rails',   require: false
+    gem 'capistrano-bundler', require: false
+    gem 'capistrano3-puma', '1.2.1',   require: false
+    gem 'capistrano3-delayed-job', '~> 1.0'
+    gem 'letter_opener'
  
 end
 
