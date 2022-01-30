@@ -1,0 +1,38 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require spree/frontend
+ *= require_self
+ *= require_tree .
+*/
+
+
+
+.comman__bar{
+	color: #fff;
+    background-color: #0074c2;
+    border-color: #0074c2;
+}
+
+.kryoss__link {
+	color: white;
+    border: 1px solid;
+    padding: 2px;
+}
+.fancy-btn-small {
+	color: white;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid #fff;
+}
+
+#footer {
+	.footer-spree-copyright {
+	    border-color: #e2e2e2 !important;
+	    background: #1574c2;
+	    color: #fff;
+	    font-size: 0.5625rem;
+	}
+}
