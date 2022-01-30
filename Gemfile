@@ -59,6 +59,13 @@ group :development do
   gem 'spring'
 end
 
+group :development do
+ gem 'capistrano', '~> 3.7'
+ gem 'capistrano-rails', '~> 1.2'
+ gem 'capistrano-yarn'
+ gem 'capistrano3-puma'
+end
+
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 3.26'
