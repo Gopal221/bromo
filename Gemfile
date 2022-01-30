@@ -67,7 +67,6 @@ group :development do
     gem 'capistrano3-puma', '1.2.1',   require: false
     gem 'capistrano3-delayed-job', '~> 1.0'
     gem 'letter_opener'
- 
 end
 
 group :test do
