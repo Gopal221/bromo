@@ -21,6 +21,7 @@ set :puma_preload_app, true
 set :puma_worker_timeout, nil
 set :puma_init_active_record, true  # Change to false when not using ActiveRecord
 
+set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 
 namespace :puma do
   desc 'Create Directories for Puma Pids and Socket'
