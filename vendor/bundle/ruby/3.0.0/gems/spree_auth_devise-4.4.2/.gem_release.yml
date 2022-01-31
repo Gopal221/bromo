@@ -1,2 +1,0 @@
-bump:
-  file: 'lib/spree/auth/version.rb'
