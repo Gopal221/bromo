@@ -1,7 +1,7 @@
 # Change these
 set :repo_url,        "git@github.com:Gopal221/bromo.git"
-set :application,     'bromo'
-set :user,            'bromo'
+set :application,     'kryoss'
+set :user,            'gpbase'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 

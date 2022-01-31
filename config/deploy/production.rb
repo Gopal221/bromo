@@ -62,6 +62,6 @@
 
 
 
-server '54.147.171.181', roles: [:web, :app, :db], primary: true
+server '3.85.196.201', roles: [:web, :app, :db], primary: true
 set :stage,  'production'
 set :branch, "main"
