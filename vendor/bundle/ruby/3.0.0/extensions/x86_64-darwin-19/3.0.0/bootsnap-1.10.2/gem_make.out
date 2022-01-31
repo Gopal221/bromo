@@ -1,0 +1,15 @@
+current directory: /Users/GOGO/Work/i2global/rails/kryoss/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.10.2/ext/bootsnap
+/Users/GOGO/.rbenv/versions/3.0.3/bin/ruby -I /Users/GOGO/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20220131-8475-ofg2uc.rb extconf.rb
+creating Makefile
+
+current directory: /Users/GOGO/Work/i2global/rails/kryoss/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.10.2/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/GOGO/Work/i2global/rails/kryoss/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.10.2/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/GOGO/Work/i2global/rails/kryoss/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.10.2/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220131-8475-cb7wxq/bootsnap
